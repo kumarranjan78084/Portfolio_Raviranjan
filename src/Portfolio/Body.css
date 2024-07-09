@@ -1,0 +1,598 @@
+
+.hr2{
+    width: 30%;
+    height: 5px;
+    border-radius: 15px;
+    background-color: white;
+}
+.hr1{
+    width: 15%;
+    height: 5px;
+    border-radius: 15px;
+    background-color: white;
+}
+
+/* First body part Raviranjan Kumar */
+
+.middle{
+    display: flex;
+    padding: 15px 0px 0px 50px;
+    color: white;
+}
+.about-section{
+    width: 45%;
+    padding: 70px;
+}
+.about-section h3{
+    margin: 0px;
+    font-size: 30px;
+}
+.about-section h1{
+    margin: 0px;
+    font-size: 45px;
+    color: rgb(244, 49, 49);
+}
+.middle h3 span {
+    color: rgb(244, 49, 49);
+}
+.icon a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    font-size: 25px;
+    margin: 20px 5px 20px;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+  .icon i{
+    font-size: 30px;
+}
+  .icon a:hover{
+    background: black;
+    color: white;
+    box-shadow: 0 0 10px black;
+}
+.hire{
+    display: flex;
+}
+.hire a{
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 5px 15px 10px 15px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
+    animation: bulging 5s infinite alternate;
+}
+@keyframes bulging {
+    0% {
+        border: 3px solid rgb(0, 255, 13);
+    }
+    10% {
+        border: 3px solid red;
+    }
+    20% {
+        border: 3px solid rgb(0, 60, 255);
+    }
+    30% {
+        border: 3px solid rgb(210, 230, 121);
+    }
+    40% {
+        border: 3px solid rgb(9, 159, 205);
+    }
+    50% {
+        border: 3px solid rgb(9, 255, 255);
+    }
+    60% {
+        border: 3px solid rgb(250, 9, 174);
+    }
+    70% {
+        border: 3px solid rgb(185, 1, 1);
+    }
+    80% {
+        border: 3px solid rgb(9, 250, 113);
+    }
+    90% {
+        border: 3px solid rgb(5, 106, 184);
+    }
+    100% {
+        border: 3px solid rgb(242, 9, 250);
+    }
+}
+.hire a:hover{
+    color: rgb(244, 49, 49);
+    background: rgb(26, 26, 26);
+}
+.image1 img{
+    height: 95%;
+    width: 90%;
+    position: relative;
+}
+
+
+/* Middle Part which is about me */
+.about{
+    background-color: #333;
+    clip-path:polygon(0 0,100% 0,100% 75%,0 100%);
+    padding:  2% 0% 10% 0%;
+}
+.heading h1{
+    display: flex;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: rgb(244, 49, 49);
+}
+.about-myself{
+    display: flex;
+    padding: 20px 50px;
+}
+
+.paragraph {
+    padding-left: 35px;
+}
+.paragraph p{
+    font-style: italic;
+    margin: 0;
+    color: white;
+    font-size: 30px;
+}
+.resume{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+.resume i{
+    margin-left: 5px;
+    animation: download 1s infinite alternate;
+}
+.resume a{
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    border: 0px solid;
+    padding: 7px 15px 12px 15px;
+    border-radius:15px;
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
+}
+@keyframes download {
+    0% {
+        transform: translateY(-5px); 
+    }
+    100% {
+        transform: translateY(5px);
+    }
+}
+.resume a:hover{
+    color: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+}
+
+
+/* Education Section starting from here */
+
+.education-data {
+    padding: 20px;
+    display: grid;
+    justify-content: center;
+}
+.education-title {
+    color: white;
+    justify-content: center;
+    display: flex;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px;
+}
+.edu-card-all {
+    margin-bottom: 20px;
+}
+
+.edu1 {
+    display: flex;
+    align-items: flex-start;
+}
+
+.college-img, .schl2img {
+    margin-right: 15px;
+}
+
+.college-imgpic, .schl2imgpic {
+    height: auto;
+    width: 65%;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.edu-card {
+    padding: 15px;
+    width: 100%;
+}
+
+.cllg-name {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.cllg-course {
+    font-size: 21px;
+    color: #d7d0d0;
+    margin: 5px 0;
+}
+
+.cllg-date {
+    font-size: 18px;
+    color: #bba3a3;
+    margin: 5px 0 10px 0;
+}
+
+
+ul {
+    color: wheat;
+    padding: 0px 0px 0px 40px;
+    margin: 0;
+}
+
+ul li {
+    padding: 5px 0;
+}
+
+.line-break {
+    background-color: gray;
+    border-radius: 20px;
+    height: .25vh;
+    margin-left: 2vw;
+    transition: width 1s;
+    width: 65%;
+}
+.edu-card-all:hover .line-break {
+    width: 90%;
+    background-color: blue; 
+}
+
+/* Skill Section Starting from here  */
+
+
+.skills{
+    display: flex;
+}
+.skill-sec h2{
+    color: rgb(244, 49, 49);
+    font-size: 40px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+}
+.tech-skill_1,.tech-skill_2{
+    margin: 3% 6%;
+    width: 37%;
+}
+
+.skill-bar .bar{
+    width: 100%;
+    height: 13px;
+    background-color: black;
+    border-radius: 25px;
+    position: relative;
+    margin: 10px 0px;
+}
+.skill-bar .bar span{
+    height: 100%;
+    position: absolute;
+    border-radius: 25px;
+}
+
+.skill-bar .info{
+    display: flex;
+    margin: 5px 0px;
+}
+.skill-bar .info h4, p{
+    margin: 6px;
+    font-size: 20px;
+    color: wheat;
+}
+.skill-bar .info i {
+    font-size: 35px;
+    margin-right: 20px;
+}
+
+.skill-bar .bar .html,.python,.node,.react{
+    background-color: white;
+    width: 75%;
+    animation: html 2s;
+}
+.skill-bar .bar .css,.bootstrap{
+    background-color: white;
+    width: 65%;
+    animation: css 2s;
+}
+.skill-bar .bar .java,.latex{
+    background-color: white;
+    width: 85%;
+    animation: java 2s;
+}
+.skill-bar .bar .docker,.git,.cpp{
+    width: 40%;
+    background-color: white;
+    animation: git 2s;
+}
+.skill-bar .bar .express,.javascript{
+    background-color: white;
+    width: 50%;
+    animation: express 2s;
+}
+
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 75%;
+    }
+}
+@keyframes css{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 65%;
+    }
+}
+@keyframes java{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 85%;
+    }
+}
+@keyframes git{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 40%;
+    }
+}
+@keyframes express{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 50%;
+    }
+}
+
+
+/* Project Section Details */
+
+
+.project-sec{
+    padding: 0px 20px 20px 20px;
+}
+.projects h1{
+    margin: 5px 0px;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: rgb(244, 49, 49);
+}
+.all-project{
+    padding: 15px;
+    display: flex;
+}
+.all-project .project{
+    margin: 10px;
+    border-radius: 25px;
+    background: rgb(133, 129, 180);
+    color: rgb(0, 0, 0);
+    border: 0px solid;
+    padding: 10px;
+    width: 30%;
+    box-shadow: 0 0 20px rgb(73, 62, 198);
+    cursor: pointer;
+}
+.all-project .project:hover{
+    border: 3px solid red;
+    border-radius: 25px;
+    background: black;
+    color: rgb(255, 255, 255);
+    transition: all 1s;
+}
+.head-line h2{
+    margin: 10px 0px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
+.icon{
+    height: 35px;
+}
+.project .icon i{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.head-line i{
+    font-size: 15px;
+    margin: 5px 10px;
+    color: rgb(23, 8, 238);
+}
+.project .details p{
+    margin: 10px 25px;
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+}
+
+
+/* Media query for screen size 600px */
+
+@media(max-width:600px){
+    .heading h1{
+        font-size: 30px;
+    }
+    .middle{
+        display: flex;
+        padding: 8%;
+        width: 84%;
+    }
+    .middle .about-section{
+        padding: 0%;
+        width: 120%;
+    }
+
+    .image1 img{
+        display: none;
+    }
+    .about-section h3{
+        font-size: 18px;
+        margin: 5px 0px;
+    }
+    .about-section h1{
+        font-size: 25px;
+    }
+    .about-section .icon a{
+        height: 30px;
+        width: 30px;
+        margin: 5px 2px;
+    }
+    .hire a{
+        font-size: 15px;
+        padding: 5px;
+    }
+    .image1{
+        width: 30%;
+        height: 50%;
+    }
+    .icon i{
+        font-size: 20px;
+        padding: 5px;
+    }
+
+    /* about section */
+
+
+    .about{
+        padding: 5% 0px 0px 0px;
+        clip-path:polygon(0 0,100% 0,100% 88%,0 100%);
+    }
+    .about-myself{
+        display: block;
+        padding: 5px;
+    }
+    .image{
+        width: 100%;
+    }
+    .image img{
+        width: 50%;
+        height: 50%;
+    }
+    .paragraph{
+        width: 90%;
+        margin: 0px;
+        padding: 2% 2.5%;
+        display: flex;
+        justify-content: center;
+    }
+    .paragraph p{
+        font-size: 17px;
+        margin: 0px;
+    }
+    .resume{
+        padding: 5% 0% 18% 0%;
+    }
+    .resume a{
+        padding: 8px 10px;
+        font-size: 17px;
+    }
+
+/* education section */
+
+.education-title{
+    font-size: 30px;
+}
+
+.edu-card-all{
+    margin: 2% 0%;
+}
+.college-imgpic, .schl2imgpic{
+    margin: 0px;
+    height: auto;
+    width: 100%;
+}
+.edu-card h1{
+    font-size: 21px;
+}
+.edu-card h2{
+    font-size: 17px;
+}
+.college-img, .schl2img {
+    margin: 15px 0px;
+    width: 25%;
+}
+
+/* Skill section */
+.skill-sec{
+    padding-top: 8%;
+}
+
+.skills{
+    display: block;
+}
+.skill-bar .bar{
+    width: 100%;
+}
+.tech-skill_1, .tech-skill_2{
+    width: 87%;
+}
+.skill-sec h2{
+    font-size: 30px;
+}
+
+/* Project section */
+
+    .project-sec{
+        padding: 14% 10px 10px 10px;
+    }
+    .projects h1{
+        font-size: 30px;
+    }
+    .all-project{
+        display: block;
+        width: 100%;
+        padding: 0px;
+    }
+    .all-project .project{
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    .project .details p{
+        display: block;
+        justify-content: center;
+        font-style: italic;
+        width: 80%;
+        padding: 5px;
+        font-size: 15px;
+    }
+    .project .icon i{
+        margin: 0px;
+    }
+    .head-line h2{
+        margin: 0px;
+        font-size: 20px;
+    }
+}

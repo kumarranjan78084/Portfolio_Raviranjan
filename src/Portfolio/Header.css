@@ -1,0 +1,99 @@
+body{
+    background-color: #1a1a1a;
+}
+.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    border-bottom: 2px solid #ffb300;
+    padding: 15px 10px;
+    backdrop-filter: blur(10px);
+}
+
+.navbar .headline h1{
+    color: white;
+    font: 600 40px "Macondo", cursive;
+    margin: 0;
+}
+.bar-list{
+    display: flex;
+    align-items: center;
+}
+.bar-list i{
+    color: white;
+    display: none;
+}
+.bar-list ul{
+    display: flex;
+}
+.bar-list ul li{
+    text-decoration: none;
+    margin: 0% 3%;
+    list-style: none;
+}
+.bar-list ul li a{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+}
+.bar-list ul li a:hover{
+    color: red;
+}
+
+
+
+
+
+@media screen and (max-width:600px) {
+    .navbar{
+        height: 50px;
+    }
+    .navbar .headline h1{
+        font-size: 30px;
+    }
+    .bar-list i{
+        margin: 0% 10%;
+        display: inline-block;
+        font-size: 30px;
+    }
+    .bar-list ul {
+        right: 0px;
+        margin: 0px;
+        position: fixed;
+        width: 50%;
+        top: 80px;
+        text-align: center;
+        background: rgba(232, 230, 230, 0.9);
+        transition: transform 0.5s ease;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        z-index: 1000;
+    }
+    .bar-list:hover ul{
+        display: flex;
+        transform: translateX(0);
+    }
+    .bar-list ul.active {
+        transform: translateX(100%);
+    }
+    .bar-list li{
+        list-style: none;
+        border-radius: 10px;
+        padding: 2%;
+        width: 75%;
+        height: 30px;
+    }
+    .bar-list ul li a{
+        font-size: 20px;
+        padding: 1%;
+        color: black;
+    }
+    .bar-list ul li a.active {
+        font-weight: bold;
+    }
+}
