@@ -1,0 +1,236 @@
+.about-sec{
+    padding-top: 0px;
+    width: 100%;
+}
+.about-me h1{
+    font-size: 40px;
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(244, 49, 49);
+}
+.content-about{
+    padding: 20px;
+    display: flex;
+    position: relative;
+    margin-left: 1%;
+    justify-content: center;
+}
+.left-content{
+    padding: 10px;
+    width: 40%;
+    margin: 10px 20px;
+}
+.left-content h2{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    color: white;
+}
+.left-content .location{
+    position: relative;
+    display: flex;
+    color: white;
+}
+.left-content i{
+    font-size: 25px;
+    margin: 10px;
+}
+.left-content p{
+    margin: 10px;
+    font-size: 17px;
+    cursor: pointer;
+    width: 60%;
+    color: white;
+}
+.contact-list{
+    margin-bottom: 0px;
+}
+.contact-list li{
+    margin-bottom: 0px;
+    display: block;
+    font-size: 25px;
+    color: white;
+}
+.fa-beat{
+    display: flex;
+    align-items: center;
+}
+.left-content .icon a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    margin: 20px 5px 10px 5px;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.left-content .icon i{
+    font-size: 30px;
+}
+.left-content .icon a:hover{
+    background: black;
+    color: white;
+    box-shadow: 0 0 10px black;
+}
+
+.rights{
+    display: block;
+}
+.rights h4{
+    justify-content: center;
+    display: flex;
+    position: relative;
+    align-items: center;
+    margin: 10px 0px 0px 0px;
+    font-weight: 300;
+    font-size: 20px;
+    background: black;
+    height: 55px;
+    color: white;
+    font-family: cursive ;
+}
+.rights h4 i{
+    margin: 6px 10px 0px 10px;
+    color: red;
+}
+.contact-form {
+    padding: 10px;
+    width: 40%;
+    margin: 10px 20px;
+}
+.contact-form form input,form textarea{
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    background: white;
+    color: #09090f;
+    font-size: 18px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 75%;
+}
+.contact-form textarea{
+    resize: none;
+    height: 50px;
+}
+.contact-form form button{
+    height: 40px;
+    margin: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 0px solid;
+    border-radius: 10px;
+    width: 15%;
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    animation: bulging 5s infinite alternate;
+}
+.contact-form form button:hover{
+    color: rgb(244, 49, 49);
+}
+
+@media (max-width:600px){
+    .about-sec{
+        padding: 14% 0px 0px 0px;
+        width: 100%;
+    }
+    .about-me h1{
+        font-size: 30px;
+    }
+    .content-about{
+        display: block;
+        padding: 10px;
+    }
+    .left-content{
+        width: 100%;
+        padding: 0px;
+        margin: 10px 0px 0px 0px;
+    }
+    .left-content h2{
+        font-size: 20px;
+    }
+    .left-content i{
+        font-size: 20px;
+    }
+    .contact-form{
+        width: 99%;
+        padding: 0px;
+        margin: 0px;
+    }
+    .contact-form form input, form textarea {
+        padding: 10px;
+        margin: 10px;
+        font-size: 15px;
+    }
+    .left-content i{
+        font-size: 15px;
+        margin: 5px;
+    }
+    .left-content p{
+        margin: 5px;
+        font-size: 15px;
+        width: 85%;
+    }
+    .left-content .icon a{
+        width: 35px;
+        height: 35px;
+        margin: 5px;
+    }
+    .left-content .icon i{
+        font-size: 20px;
+    }
+    .contact-form form button{
+        width: 25%;
+    }
+    .contact-list li{
+        font-size: 15px;
+    }
+    .rights h4{
+        height: 40px;
+        font-size: 15px;
+    }
+}
+
+/* Popup Message for Submit Button */
+
+.popup-message {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 9999; 
+  }
+.popup-message p{
+    margin: 0px;
+    color: black;
+}
+.popup-message button{
+    cursor: pointer;
+    height: 35px;
+    margin: 10px 0px;
+    font-size: 20px;
+    border: 0px solid;
+    border-radius: 10px;
+    width: 25%;
+    background: black;
+    color: rgb(255, 255, 255);
+}
+@media(max-width:600px){
+    .popup-message button{
+        width: 34%;
+    }
+}
+.popup-message button:hover{
+    background: rgb(7, 2, 67);
+    color: rgb(255, 255, 255);
+}
