@@ -134,7 +134,7 @@
     color: rgb(244, 49, 49);
 }
 
-@media (max-width:600px){
+@media (max-width:720px){
     .about-sec{
         padding: 14% 0px 0px 0px;
         width: 100%;
@@ -233,4 +233,29 @@
 .popup-message button:hover{
     background: rgb(7, 2, 67);
     color: rgb(255, 255, 255);
+}
+
+
+/* media query for screen size */
+
+@media (min-width: 720px) and (max-width: 1025px)  {
+    .content-about{
+        margin: 0px;
+        padding: 10px;
+    }
+    .left-content{
+        width: 44%;
+    }
+    .contact-form form button{
+        width: 25%;
+    }
+    .left-content p{
+        width: 85%;
+    }
+    .left-content i {
+        font-size: 20px;
+    }
+    .contact-list li{
+        font-size: 22px;
+    }
 }

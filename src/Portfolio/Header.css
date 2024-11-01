@@ -47,7 +47,7 @@ body{
 
 
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:720px) {
     .navbar{
         height: 50px;
     }
@@ -95,5 +95,24 @@ body{
     }
     .bar-list ul li a.active {
         font-weight: bold;
+    }
+}
+
+
+/* media query for screen size 1025 */
+
+@media (min-width: 720px) and (max-width: 1025px) {
+
+    .navbar {
+        justify-content: space-evenly;
+    }
+    .navbar .headline h1{
+        font-size: 25px;
+    }
+    .bar-list ul {
+        padding: 0px;
+    }
+    .bar-list ul li a{
+        font-size: 22px;
     }
 }
