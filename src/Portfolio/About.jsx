@@ -77,11 +77,11 @@ export default function About() {
                         <li><i className="fa-solid fa-phone fa-shake"></i>+91-9570500312</li>
                     </div>
                     <span className='icon'>
-                        <a href="https://www.facebook.com/" ><i className="bx bxl-facebook"></i></a>
-                        <a href="https://www.instagram.com/"><i className="bx bxl-instagram"></i></a>
-                        <a href="https://in.linkedin.com/in/raviranjan-kumar-18b5652b5" ><i className="bx bxl-linkedin"></i></a>
-                        <a href="https://github.com/"><i className="fa-brands fa-github"></i></a>
-                        <a href="https://twitter.com/?lang=en" ><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://www.facebook.com/" ><i className="bx bxl-facebook" style={{ color: 'blue' }}></i></a>
+                        <a href="https://www.instagram.com/"><i className="bx bxl-instagram" style={{color: 'red'}}></i></a>
+                        <a href="https://in.linkedin.com/in/raviranjan-kumar-18b5652b5" ><i className="fa-brands fa-linkedin-in" style={{color: 'rgb(30,40,80)'}}></i></a>
+                        <a href="https://github.com/"><i className="fa-brands fa-github" style={{color: 'black'}}></i></a>
+                        <a href="https://twitter.com/?lang=en" ><i className="fa-brands fa-x-twitter"></i></a>
                     </span>
                 </div>
             </div>

@@ -29,10 +29,10 @@ export default function Body() {
                     <h3>Computer Science Engineer</h3>
                     <h3>And I'm a <span className="text"></span></h3>
                     <span className='icon'>
-                        <a href="https://www.facebook.com/" ><i className="bx bxl-facebook"></i></a>
-                        <a href="https://www.instagram.com/"><i className="bx bxl-instagram"></i></a>
-                        <a href="https://in.linkedin.com/in/raviranjan-kumar-18b5652b5" ><i className="bx bxl-linkedin"></i></a>
-                        <a href="https://github.com/"><i className="fa-brands fa-github"></i></a>
+                        <a href="https://www.facebook.com/" ><i className="bx bxl-facebook" style={{ color: 'blue' }}></i></a>
+                        <a href="https://www.instagram.com/"><i className="bx bxl-instagram" style={{color: 'red'}}></i></a>
+                        <a href="https://in.linkedin.com/in/raviranjan-kumar-18b5652b5" ><i className="fa-brands fa-linkedin-in" style={{color: 'rgb(30,40,80)'}}></i></a>
+                        <a href="https://github.com/"><i className="fa-brands fa-github" style={{color: 'black'}}></i></a>
                         <a href="https://twitter.com/?lang=en" ><i className="fa-brands fa-x-twitter"></i></a>
                     </span>
                     <span className='hire'>
@@ -71,59 +71,59 @@ export default function Body() {
                         Download Resume <i className="fa-solid fa-file-arrow-down"></i></a>
                 </span>
             </div>
-            <div class="education-data">
-                <div class="education-title">EDUCATION</div>
-                <div class="edu-card-all">
-                    <div class="edu1">
-                    <div class="college-img">
-                        <img class="college-imgpic" src="/nitmz.png" alt="college"/>
+            <div className="education-data">
+                <div className="education-title">EDUCATION</div>
+                <div className="edu-card-all">
+                    <div className="edu1">
+                    <div className="college-img">
+                        <img className="college-imgpic" src="/nitmz.png" alt="college"/>
                     </div>
-                    <div class="edu-card">
-                        <h1 class="cllg-name">National Institute of Technology, Mizoram</h1>
-                        <h2 class="cllg-course">Bachelor of Technology in Computer Science and Engineering</h2>
-                        <h2 class="cllg-date">DECEMBER 2022 - MAY 2026 (Expected)</h2>
+                    <div className="edu-card">
+                        <h1 className="cllg-name">National Institute of Technology, Mizoram</h1>
+                        <h2 className="cllg-course">Bachelor of Technology in Computer Science and Engineering</h2>
+                        <h2 className="cllg-date">DECEMBER 2022 - MAY 2026 (Expected)</h2>
                         <ul>
                         <li>Scored 9.0 CGPA at the end of 4th sem</li>
                         </ul>
                     </div>
                     </div>
-                    <div class="line-break"></div>
+                    <div className="line-break"></div>
                 </div>
 
-                <div class="edu-card-all">
-                    <div class="edu1">
-                    <div class="college-img">
-                        <img class="college-imgpic" src="/GSD.png" alt="college"/>
+                <div className="edu-card-all">
+                    <div className="edu1">
+                    <div className="college-img">
+                        <img className="college-imgpic" src="/GSD.png" alt="college"/>
                     </div>
-                    <div class="edu-card">
-                        <h1 class="cllg-name">+2 G S D High School Ballipur, Samastipur</h1>
-                        <h2 class="cllg-course">XII</h2>
-                        <h2 class="cllg-date">FEBRUARY 2019 - MARCH 2021</h2>
+                    <div className="edu-card">
+                        <h1 className="cllg-name">+2 G S D High School Ballipur, Samastipur</h1>
+                        <h2 className="cllg-course">XII</h2>
+                        <h2 className="cllg-date">FEBRUARY 2019 - MARCH 2021</h2>
                         <ul>
                         <li>Scored 79.2% in 12th Board</li>
                         <li>BSEB Patna</li>
                         </ul>
                     </div>
                     </div>
-                    <div class="line-break"></div>
+                    <div className="line-break"></div>
                 </div>
 
-                <div class="edu-card-all">
-                    <div class="edu1">
-                    <div class="schl2img">
+                <div className="edu-card-all">
+                    <div className="edu1">
+                    <div className="schl2img">
                         <img className="schl2imgpic" src="/GSD.png" alt="college"/>
                     </div>
-                    <div class="edu-card">
-                        <h1 class="cllg-name">G S D High School Ballipur, Samastipur</h1>
-                        <h2 class="cllg-course">X</h2>
-                        <h2 class="cllg-date">FEBRUARY 2018</h2>
+                    <div className="edu-card">
+                        <h1 className="cllg-name">G S D High School Ballipur, Samastipur</h1>
+                        <h2 className="cllg-course">X</h2>
+                        <h2 className="cllg-date">FEBRUARY 2018</h2>
                         <ul>
                         <li>Scored 84.6% in 10th Board</li>
                         <li>BSEB Patna</li>
                         </ul>
                     </div>
                     </div>
-                    <div class="line-break"></div>
+                    <div className="line-break"></div>
                 </div>
             </div>
 
@@ -258,18 +258,19 @@ export default function Body() {
                             <i className="fas fa-robot"></i>
                         </span>
                         <span className="head-line">
-                            <h2>Machine Learning<i className="fa-solid fa-arrow-up-right-from-square"></i></h2>
+                            <h2>Gold Price Prediction <a href='https://raviranjankumar-portfolio.netlify.app/' target="_blank" className="fa-solid fa-arrow-up-right-from-square"></a></h2>
                         </span>
                         <span className="details">
                             <p>
-                            Car price prediction is a crucial application of machine learning in the 
-                            automotive industry. By leveraging historical data and various predictive 
-                            algorithms, machine learning models can estimate the price of a car based 
-                            on its features and market trends. This capability is beneficial for car 
-                            manufacturers, dealerships, and consumers alike, as it helps in making 
-                            informed decisions regarding pricing, buying, and selling vehicles. Here, 
-                            we delve into the process and methodologies involved in predicting car 
-                            prices using machine learning.
+                            A gold price prediction machine learning project involves building a model 
+                            that can forecast future gold prices based on historical data and various 
+                            influencing factors.
+                            Gold price prediction involves forecasting future gold prices based on 
+                            historical data and various economic indicators. One effective method for 
+                            this is using machine learning algorithms, such as Random Forest.we use Random Forest for 
+                            gold price prediction Here's a high-level outline of gold price prediction is 
+                            data collection, data processing, model selection, and
+                            Model Training and Evaluation.
                             </p>
                         </span>
                     </div>
@@ -278,17 +279,17 @@ export default function Body() {
                             <i className="fas fa-paint-brush"></i>
                         </span>
                         <span className="head-line">
-                            <h2>Graphic Design<i className="fa-solid fa-arrow-up-right-from-square"></i></h2>
+                            <h2>Credit Card Prediction<a href='https://github.com/kumarranjan78084/Gold_price_prediction' target="_blank" className="fa-solid fa-arrow-up-right-from-square"></a></h2>
                         </span>
                         <span className="details">
                             <p>
-                            Graphic design is the art and practice of planning and projecting ideas 
-                            and experiences with visual and textual content. It is a creative process 
-                            that combines art and technology to communicate ideas, often used in 
-                            advertisements, magazines, books, websites, and logos. Graphic design 
-                            encompasses a range of skills and disciplines, including typography, 
-                            visual arts, layout, and interaction design.we have to Designing a Poster 
-                            for a Music Festival.
+                            Credit card default prediction is an essential task in the financial industry, 
+                            aiming to anticipate the likelihood that a customer will fail to make their 
+                            required credit card payments. This predictive modeling is crucial for banks 
+                            and financial institutions to manage risk, improve lending decisions, and 
+                            reduce potential losses. By leveraging historical data and advanced machine 
+                            learning algorithms, institutions can build models that assess creditworthiness 
+                            and identify high-risk customers.
                             </p>
                         </span>
                     </div>
@@ -297,7 +298,7 @@ export default function Body() {
                             <i className="fas fa-desktop"></i>
                         </span>
                         <span className="head-line">
-                            <h2>Web Development<i className="fa-solid fa-arrow-up-right-from-square"></i></h2>
+                            <h2>Web Development<a href='https://raviranjankumar-portfolio.netlify.app/' target="_blank" className="fa-solid fa-arrow-up-right-from-square"></a></h2>
                         </span>
                         <span className="details">
                             <p>
